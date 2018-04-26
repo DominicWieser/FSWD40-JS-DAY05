@@ -1,72 +1,77 @@
-var employees = [{
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+   	"title": "Employeessssssssss",
+   	"description": "sth in here",
+   	"type": "object",
+	"employees": [{
 		"id": "007", 
 		"firstName": "James",
 		"lastName": "Bond",
 		"mailAddress": "james.bond@queen.com",
 		"jobTitle": "Headhunter",
 		"salary": "$1.000.000" 
-
 		}, {
-		"id" : "001", 
-		"firstName" : "Edward",
-		"lastName" : "Donne",
-		"mailAddress" : "edward.donne@queen.com",
-		"jobTitle" : "Agent",
-		"salary" : "$200.000" 
+		"id": "001", 
+		"firstName": "Edward",
+		"lastName": "Donne",
+		"mailAddress": "edward.donne@queen.com",
+		"jobTitle": "Agent",
+		"salary": "$200.000" 
 		}, {
-			"id" : "002", 
-		"firstName" : "Bill",
-		"lastName" : "Fairbanks",
-		"mailAddress" : "bill.fairbanks@queen.com",
-		"jobTitle" : "Agent",
-		"salary" : "$10.000 per kill" 
+		"id" :"002", 
+		"firstName" :"Bill",
+		"lastName" :"Fairbanks",
+		"mailAddress": "bill.fairbanks@queen.com",
+		"jobTitle": "Agent",
+		"salary": "$10.000 per kill" 
 		}, {
-		"id" : "006", 
-		"firstName" : "Andy",
-		"lastName" : "Renton",
-		"mailAddress" : "andy.renton@queen.com",
-		"jobTitle" : "Royal Marine",
-		"salary" : "$600.000" 
+		"id": "006", 
+		"firstName": "Andy",
+		"lastName": "Renton",
+		"mailAddress": "andy.renton@queen.com",
+		"jobTitle": "Royal Marine",
+		"salary": "$600.000" 
 		}, {
-		"id" : "008", 
-		"firstName" : "Bill",
-		"lastName" : "NA",
-		"mailAddress" : "bill.na@queen.com",
-		"jobTitle" : "Troublemaker",
-		"salary" : "$5.000" 
+		"id": "008", 
+		"firstName": "Bill",
+		"lastName": "NA",
+		"mailAddress": "bill.na@queen.com",
+		"jobTitle": "Troublemaker",
+		"salary": "$5.000" 
 		}, {
-		"id" : "004", 
-		"firstName" : "Scarlett",
-		"lastName" : "Papava",
-		"mailAddress" : "scarlett.papava@queen.com",
-		"jobTitle" : "Bondgirl",
-		"salary" : "$500.000" 
+		"id": "004", 
+		"firstName": "Scarlett",
+		"lastName": "Papava",
+		"mailAddress": "scarlett.papava@queen.com",
+		"jobTitle": "Bondgirl",
+		"salary": "$500.000" 
 		}, {
-		"id" : "005", 
-		"firstName" : "Stuart",
-		"lastName" : "Thomas",
-		"mailAddress" : "stuart.thomas@queen.com",
-		"jobTitle" : "Mascot",
-		"salary" : "$1.000" 
+		"id": "005", 
+		"firstName": "Stuart",
+		"lastName": "Thomas",
+		"mailAddress": "stuart.thomas@queen.com",
+		"jobTitle": "Mascot",
+		"salary": "$1.000" 
 		}, {
-		"id" : "009", 
-		"firstName" : "Peter",
-		"lastName" : "Smith",
-		"mailAddress" : "peter.smith@queen.com",
-		"jobTitle" : "Bad Guy",
-		"salary" : "$100.000.000" 
+		"id": "009", 
+		"firstName": "Peter",
+		"lastName": "Smith",
+		"mailAddress": "peter.smith@queen.com",
+		"jobTitle": "Bad Guy",
+		"salary": "$100.000.000" 
 		}, {
-		"id" : "012", 
-		"firstName" : "Sam",
-		"lastName" : "Johnston",
-		"mailAddress" : "sam.johnston@queen.com",
-		"jobTitle" : "Photographer",
-		"salary" : "$50.000" 
+		"id": "012", 
+		"firstName": "Sam",
+		"lastName": "Johnston",
+		"mailAddress": "sam.johnston@queen.com",
+		"jobTitle": "Photographer",
+		"salary": "$50.000" 
 		}, {
-		"id" : "000", 
-		"firstName" : "William",
-		"lastName" : "Burke",
-		"mailAddress" : "william.burke@queen.com",
-		"jobTitle" : "Detective",
-		"salary" : "$8.000" 
+		"id": "000", 
+		"firstName": "William",
+		"lastName": "Burke",
+		"mailAddress": "william.burke@queen.com",
+		"jobTitle": "Detective",
+		"salary": "$8.000" 
 	} ]
+}
