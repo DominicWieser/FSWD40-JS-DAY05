@@ -1,4 +1,11 @@
 var employees = [{
+		"id": "ID", 
+		"firstName": "FIRSTNAME",
+		"lastName": "LASTNAME",
+		"mailAddress": "EMAIL",
+		"jobTitle": "JOBTITLE",
+		"salary": "SALARY" 
+		},{
 		"id": "007", 
 		"firstName": "James",
 		"lastName": "Bond",
@@ -68,4 +75,4 @@ var employees = [{
 		"mailAddress" : "william.burke@queen.com",
 		"jobTitle" : "Detective",
 		"salary" : "$8.000" 
-	} ]
+	}];
