@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Advanced</title>
+</head>
+<body>
+<h1>Advanced </h1>
+<input type="button" value="createtable" id="submit">
+<script type="text/javascript" src="script.json"></script>
+<script>
+
+submit.onclick = function classwork() {
+document.write("<table border=1>");
+
+for (var i=0; i < employees.length; i++) {
+	var temp = employees[i];
+	document.write("<tr>");
+	document.write("<td>"+ temp.id + "</td>" + "<td>"+ temp.firstName + "</td>"+ "<td>"+ temp.lastName + "</td>" + "<td>"+ temp.mailAddress + "</td>" + "<td>" + temp.jobTitle + "</td>" + "<td>"+ temp.salary + "</td>"); 
+	document.write("</tr>"); 
+}
+document.write("</table>"); 
+ }
+</script>	
+
+
+</body>
+</html>
